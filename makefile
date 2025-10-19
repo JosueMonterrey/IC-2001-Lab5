@@ -1,4 +1,4 @@
-EXECUTABLES := L50 L51 52
+EXECUTABLES := L50 L51 L52
 CXX := g++
 
 all: compile
