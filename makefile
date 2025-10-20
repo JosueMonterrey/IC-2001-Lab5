@@ -1,4 +1,4 @@
-EXECUTABLES := L50 L51 L52 L53
+EXECUTABLES := L50 L51 L52 L53 L54
 CXX := g++
 
 all: compile
@@ -8,6 +8,7 @@ compile:
 		${CXX} -o L51 L51.cpp
 		${CXX} -o L52 L52.cpp
 		${CXX} -o L53 L53.cpp
+		${CXX} -o L54 L54.cpp
 
 clean:
 		rm -f ${EXECUTABLES}
